@@ -4,18 +4,18 @@ export default function ProductDetails() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="mx-auto my-10 max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="mx-auto my-10 max-w-md rounded-2xl border border-slate-200 bg-slate-800 p-6 shadow-sm">
             <div className="flex items-start justify-between gap-4">
                 <div>
                     <p className="text-sm font-medium text-blue-600">
                         Wearable Technology
                     </p>
 
-                    <h2 className="mt-1 text-xl font-bold text-slate-900">
+                    <h2 className="mt-1 text-xl font-bold text-slate-500">
                         Smart Watch Pro X
                     </h2>
 
-                    <p className="mt-2 text-2xl font-bold text-slate-900">
+                    <p className="mt-2 text-2xl font-bold text-slate-500">
                         $ 249
                     </p>
 
@@ -23,7 +23,7 @@ export default function ProductDetails() {
                         ⌚
                     </div>
 
-                    <p className="mt-4 text-sm leading-6 text-slate-600">
+                    <p className="mt-4 text-sm leading-6 text-slate-500">
                         A stylish smartwatch designed to track your fitness,
                         monitor your heart rate, and keep you connected
                         throughout the day.
