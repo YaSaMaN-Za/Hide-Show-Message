@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-
+import ProductDetails from './component/ProductDetaills';
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -28,6 +28,8 @@ export default function App() {
           </div>
         )}
       </section>
+      <ProductDetails/>
     </main>
-  );
+  )
+
 }
