@@ -5,7 +5,8 @@ export default function App() {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <main className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
+    
+    <main className="min-h-screen bg-slate-950 flex flex-col items-center justify-center p-4">
       <section className="w-full max-w-md rounded-2xl border border-slate-800 bg-slate-900 p-6 text-white">
         <h1 className="text-2xl font-bold">
           Notification
